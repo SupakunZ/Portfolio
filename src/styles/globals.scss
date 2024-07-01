@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-container {
+  @apply 2xl:container xl:px-20 md:px-12 px-4 mx-auto;
+}
+
+.hamburger {
+  z-index: 1;
+  backface-visibility: hidden;
+
+  >div {
+    height: 0.125rem;
+    transition: all 0.4s ease;
+    -webkit-box-pack: center;
+
+    &:before,
+    &:after {
+      content: "";
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      top: -0.5rem;
+      height: 0.125rem;
+      background: inherit;
+      transition: all 0.4s ease;
+    }
+
+    &:after {
+      top: 0.5rem;
+    }
+  }
+}
+
+.outer-menu {
+  .checkbox-toggle {
+    z-index: 2;
+
+    &:checked {
+      + {
+        .hamburger {
+          >div {
+            transform: rotate(135deg);
+
+            &:before {
+              top: 0;
+              transform: rotate(90deg);
+            }
+
+            &:after {
+              top: 0;
+              transform: rotate(90deg);
+              opacity: 0;
+            }
+          }
+        }
+      }
+
+      ~ {
+        .menu {
+          pointer-events: auto;
+          visibility: visible !important;
+
+          >div {
+            transform: scale(1);
+            transition-duration: 0.75s;
+
+            >div {
+              opacity: 1;
+              transition: opacity 0.4s ease 0.4s;
+            }
+          }
+        }
+      }
+
+      &:hover {
+        + {
+          .hamburger {
+            >div {
+              transform: rotate(225deg);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.menu {
+  backface-visibility: hidden;
+  outline: 0.0625rem solid transparent;
+
+  >div {
+    width: 240vw;
+    height: 240vw;
+    transform: scale(1);
+    will-change: transform;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    backface-visibility: hidden;
+    background: rgba(0, 0, 0, 0.8);
+    //check it out later when more text is on the background to change the opacity
+    // @supports not (backdrop-filter: blur(0.625rem)) {
+    //   background: rgba(0, 0, 0, 0.8);
+    // }
+
+    >div {
+      max-width: 90vw;
+      transition: opacity 0.4s ease;
+    }
+
+    ul {
+      li {
+        a {
+          background: linear-gradient(90deg,
+              #ffffff 0%,
+              #ffffff 50%,
+              #8b31ff 51%,
+              #7000ff 100%);
+          background-size: 200% 100%;
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+          &:hover {
+            background-position: 100% 0;
+          }
+        }
+      }
+    }
+  }
+}
