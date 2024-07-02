@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({ children }) => {
   return (
     <>
       <nav className='w-full fixed top-0 py-8 z-50 select-none bg-gradient-to-b from-black shadow-black transition-all duration-300 '>
@@ -13,6 +13,7 @@ const Header = () => {
             <div className="hamburger w-6 h-6 flex items-center justify-center">
               <div className="relative flex-none w-full bg-white duration-300 flex items-center justify-center" />
             </div>
+            {children}
           </div>
         </div>
       </nav>

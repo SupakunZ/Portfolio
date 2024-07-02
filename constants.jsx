@@ -1,3 +1,5 @@
+import { IconMail, IconLinkedin, IconInstagram, IconTwitter, IconGithub, IconExternal, } from "./src/components/Icons/index";
+
 export const METADATA = {
   author: "Supakun Thata",
   title: "Portfolio | Supakun Thata",
@@ -44,7 +46,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
+  "I'm Frontend Developer",
   "I build things for the web",
   "I create aesthetic and modern apps",
 ];
@@ -53,22 +55,27 @@ export const SOCIAL_LINKS = [
   {
     name: "mail",
     url: "mailto: shubhporwal73@gmail.com",
+    img: <IconMail />
   },
   {
     name: "linkedin",
     url: "https://www.linkedin.com/in/shubhporwal/",
+    img: <IconLinkedin />
   },
   {
     name: "github",
     url: "https://github.com/shubh73",
+    img: <IconGithub />
   },
   {
     name: "instagram",
     url: "https://www.instagram.com/shubhii73/",
+    img: <IconInstagram />
   },
   {
     name: "twitter",
     url: "https://twitter.com/shubh731",
+    img: <IconTwitter />
   },
 ];
 

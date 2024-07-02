@@ -1,0 +1,73 @@
+.intro {
+  animation: fadeAppear 1s 0.2s;
+}
+
+.heroName {
+  line-height: 1.5em;
+  animation: fadeAppear 1.3s 0.3s;
+
+  .emphasize {
+    &::after {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      bottom: 0.2rem;
+      left: 0;
+      width: 100%;
+      height: 0.36rem;
+      border-radius: 1rem;
+      background-image: linear-gradient(to right, #9f55ff, #7000ff);
+      box-shadow: 0 0 1rem rgb(112, 15, 255);
+      animation: growHorizontal 1.3s cubic-bezier(0.9, 0, 0.5, 0.9) 0.8s;
+    }
+  }
+}
+
+.blob {
+  background-image: url(../../../public/profile_img01.jpg);
+  width: 380px;
+  height: 380px;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+  box-shadow: 0 5px 5px 5px rgba(112, 15, 255, 0.7);
+  animation: animate 5s linear infinite;
+  transition: all 1s linear;
+}
+
+@keyframes animate {
+
+  0%,
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+}
+
+
+@keyframes fadeAppear {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes growHorizontal {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 98%;
+  }
+}
