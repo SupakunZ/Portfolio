@@ -68,6 +68,11 @@ body {
   @apply bg-black text-white overflow-x-hidden;
 }
 
+// body {
+//   color: rgb(var(--foreground-rgb));
+//   background-color: #0d1224;
+// }
+
 .section-container {
   @apply 2xl:container xl:px-20 md:px-12 px-4 mx-auto;
 }

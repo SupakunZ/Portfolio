@@ -54,7 +54,7 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: supakunt.thata@gmail.com",
     img: <IconMail />
   },
   {
@@ -64,17 +64,17 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/SupakunZ",
     img: <IconGithub />
   },
   {
     name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
+    url: "https://www.instagram.com/gunnkkun_/",
     img: <IconInstagram />
   },
   {
     name: "twitter",
-    url: "https://twitter.com/shubh731",
+    url: "https://x.com/GuNz246448",
     img: <IconTwitter />
   },
 ];
