@@ -1,4 +1,13 @@
 import { IconMail, IconLinkedin, IconInstagram, IconTwitter, IconGithub, IconExternal, } from "./src/components/Icons/index";
+import html from './public/skills/html.svg';
+import css from './public/skills/css.svg';
+import javascript from './public/skills/javascript.svg';
+import react from './public/skills/react.svg';
+import bootstrap from './public/skills/bootstrap.svg';
+import figma from './public/skills/figma.svg';
+import git from './public/skills/git.svg';
+import tailwind from './public/skills/tailwind.svg';
+
 
 export const METADATA = {
   author: "Supakun Thata",
@@ -32,12 +41,12 @@ export const MENULINKS = [
     ref: "skills",
   },
   {
-    name: "Projects",
-    ref: "projects",
+    name: "About",
+    ref: "about",
   },
   {
-    name: "Work",
-    ref: "work",
+    name: "Projects",
+    ref: "projects",
   },
   {
     name: "Contact",
@@ -79,32 +88,40 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-export const SKILLS = {
-  languagesAndTools: [
-    "html",
-    "css",
-    "javascript",
-    "typescript",
-    "sass",
-    "nodejs",
-    "webpack",
-    "vite",
-    "firebase",
-    "figma",
-    "tanstack-query",
-  ],
-  librariesAndFrameworks: [
-    "react",
-    "redux",
-    "nextjs",
-    "tailwindcss",
-    "styledcomponents",
-    "antdesign",
-    "chakra-ui",
-  ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
-};
+export const SKILLS = [
+  {
+    tools: "HTML",
+    img: html
+  },
+  {
+    tools: "CSS",
+    img: css
+  },
+  {
+    tools: "Javascript",
+    img: javascript
+  },
+  {
+    tools: "React",
+    img: react
+  },
+  {
+    tools: "Tailwind",
+    img: tailwind
+  },
+  {
+    tools: "Git",
+    img: git
+  },
+  {
+    tools: "Bootstrap",
+    img: bootstrap
+  },
+  {
+    tools: "Figma",
+    img: figma
+  },
+];
 
 export const PROJECTS = [
   {

@@ -11,7 +11,7 @@ const Profiles = () => {
           <a
             href={item.url}
             key={item.name}
-            className="link"
+            className="link z-10"
             rel="noreferrer"
             target="_blank"
             aria-label={item.name}

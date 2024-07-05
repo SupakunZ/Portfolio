@@ -45,6 +45,12 @@
   box-shadow: 0 5px 5px 5px rgba(112, 15, 255, 0.7);
   animation: animate 5s linear infinite;
   transition: all 1s linear;
+  cursor: pointer;
+
+  &:hover {
+    background-image: url(../../../public/profile_img.jpg);
+    transition: all 0.5s linear;
+  }
 }
 
 @keyframes animate {

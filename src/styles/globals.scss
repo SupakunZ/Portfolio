@@ -77,6 +77,10 @@ body {
   @apply 2xl:container xl:px-20 md:px-12 px-4 mx-auto;
 }
 
+.slid-container {
+  @apply 2xl:container xl:pe-[11rem] lg:pe-[7.5rem] md:pe-[7.5rem] pe-[3.5rem] mx-auto;
+}
+
 .hamburger {
   z-index: 1;
   backface-visibility: hidden;
@@ -219,4 +223,12 @@ body {
   &-short {
     height: 55%;
   }
+}
+
+.text-gradient {
+  background: linear-gradient(to right,
+      #9f55ff, #7000ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
