@@ -17,9 +17,8 @@ const About = () => {
               <h1 className="text-4xl mt-2 font-medium text-gradient w-fit staggered-reveal">
                 Who I am?
               </h1>
-              <h2 className="text-[1.2rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-                I like to take responsibility to craft aesthetic user experience
-                using modern frontend architecture.{" "}
+              <h2 className="text-[1rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
+                My name is Supakun Thata. I am Frontend developer. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies, passionate about problem-solving and like almost all the stacks of web application development.
               </h2>
             </div>
             <div className="mt-10 flex flex-col gap-3">
@@ -30,7 +29,7 @@ const About = () => {
                 LANGUAGES AND TOOLS
               </h3>
             </div>
-            <div className="slid-container w-screen my-5">
+            <div className="slid-container w-screen my-4">
               <Marquee
                 gradient={false}
                 speed={80}
