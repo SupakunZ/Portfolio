@@ -6,7 +6,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
-import { FreeMode, Pagination } from "swiper/modules";
+import 'swiper/css/navigation';
+import { FreeMode, Pagination, Autoplay, Navigation } from "swiper/modules";
 
 
 const Project = ({ isDesktop, clientHeight }) => {
@@ -64,11 +65,19 @@ const Project = ({ isDesktop, clientHeight }) => {
                     spaceBetween: 15,
                   },
                 }}
-                freeMode={true}
+                spaceBetween={30}
+                slidesPerView={1}
+                loop={true}
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
                 pagination={{
                   clickable: true,
                 }}
-                modules={[FreeMode, Pagination]}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation]}
                 className="max-w-[90%] lg:max-w-[100%]"
               >
                 {PROJECTS.map((project, index) => (
