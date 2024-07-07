@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useRef } from "react";
 import VanillaTilt from "vanilla-tilt";
 import styles from "./ProjectTile.module.scss";
+// import '../../../public/skills/'
 
 const Card = ({ project, classes, isDesktop }) => {
 
@@ -29,7 +30,7 @@ const Card = ({ project, classes, isDesktop }) => {
     <>
       <a
         href={url}
-        className={`overflow-hidden rounded-3xl ${additionalClasses}`}
+        className={`overflow-hidden rounded-3xl card flex ${additionalClasses}`}
         ref={projectCard}
         target="_blank"
         rel="noreferrer"
@@ -40,7 +41,7 @@ const Card = ({ project, classes, isDesktop }) => {
         }}
       >
         <div
-          className={`h-[22rem] w-[35rem] bg-black ${styles.ProjectTile} rounded-3xl relative p-6 flex flex-col justify-between max-w-full`}
+          className={` h-[24rem] w-[100%] bg-black ${styles.ProjectTile} rounded-3xl relative p-6 flex flex-col justify-between max-w-full`}
           style={{
             background: `linear-gradient(90deg, ${gradient[0]} 0%, ${gradient[1]} 100%)`,
           }}
@@ -71,7 +72,7 @@ const Card = ({ project, classes, isDesktop }) => {
             }}
           />
           <h1
-            className="font-medium text-3xl sm:text-4xl z-10 pl-2 transform-gpu"
+            className="font-medium text-3xl sm:text-3xl z-10 pl-2 transform-gpu"
             style={{ transform: "translateZ(3rem)" }}
           >
             {name}
@@ -85,7 +86,7 @@ const Card = ({ project, classes, isDesktop }) => {
               {project.tech.map((el, i) => (
                 <img
                   className={`${i % 2 === 0 && "ml-16"} mb-4`}
-                  src={`/projects/tech/${el}.svg`}
+                  src={`../../../public/skills/${el}.svg`}
                   alt={el}
                   height={45}
                   width={45}
@@ -95,7 +96,7 @@ const Card = ({ project, classes, isDesktop }) => {
             </div>
           </div>
           <h2
-            className="text-lg z-10 tracking-wide font-medium text-white transform-gpu"
+            className="text-[17px] z-10 tracking-wide font-medium text-white transform-gpu"
             style={{ transform: "translateZ(0.8rem)" }}
           >
             {description}

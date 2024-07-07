@@ -3,7 +3,7 @@ import html from './public/skills/html.svg';
 import css from './public/skills/css.svg';
 import javascript from './public/skills/javascript.svg';
 import react from './public/skills/react.svg';
-import bootstrap from './public/skills/bootstrap.svg';
+import bootstrap from './public/skills/bootstrap5.svg';
 import figma from './public/skills/figma.svg';
 import git from './public/skills/git.svg';
 import tailwind from './public/skills/tailwind.svg';
@@ -146,41 +146,50 @@ export const experiences = [
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
+    name: "Pokédex",
     image: "/projects/airbnb.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
+    description: "Pokédex App using PokeAPI + ReactJs + Tailwind CSS 🌏",
     gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "nextjs", "tailwindcss", "mapbox"],
-  },
-  {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
-  },
-  {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
-    tech: ["react", "chakra-ui", "alan"],
+    url: "https://github.com/SupakunZ/Pokedex_App",
+    tech: ["typescript", "vitejs", "react", "tailwind", "sass"],
   },
   {
     name: "Tesla",
+    image: "/projects/medium.webp",
+    blurImage: "/projects/blur/medium-blur.webp",
+    description: "Tesla UI clone using ReactJs + Bootstrap5 🚗",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://tesla-cloness.netlify.app/",
+    tech: ["vitejs", "react", "bootstrap5"],
+  },
+  {
+    name: "Spacex",
+    image: "/projects/inshorts.webp",
+    blurImage: "/projects/blur/airbnb-blur.webp",
+    description:
+      "Spacex UI clone using ReactJs 👽",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://spacex-clones.netlify.app/",
+    tech: ["vitejs", "react"],
+  },
+  {
+    name: "GNSS-RTK",
     image: "/projects/tesla.webp",
     blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
+    description: "GNSS-RTK Navigation App using Python 🏆",
     gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
-    tech: ["react"],
+    url: "https://github.com/SupakunZ/GNSS_RTK",
+    tech: ["python", "numpy"],
+  },
+  {
+    name: "Portfolio",
+    image: "/projects/tesla.webp",
+    blurImage: "/projects/blur/tesla-blur.webp",
+    description: "Portfolio using ReactJs + Tailwind CSS 🚀",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://github.com/SupakunZ/Portfolio",
+    tech: ["vitejs", "react", "tailwind", "sass"],
   },
 ];
 

@@ -21,7 +21,7 @@
 html {
   scroll-behavior: smooth;
   -ms-overflow-style: scrollbar;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 
   @media (min-width: 320px) {
@@ -63,15 +63,14 @@ html {
   ;
 }
 
+.card {
+  margin: 7px !important;
+}
+
 body {
   box-sizing: border-box;
   @apply bg-black text-white overflow-x-hidden;
 }
-
-// body {
-//   color: rgb(var(--foreground-rgb));
-//   background-color: #0d1224;
-// }
 
 .section-container {
   @apply 2xl:container xl:px-20 md:px-12 px-4 mx-auto;
@@ -79,6 +78,10 @@ body {
 
 .slid-container {
   @apply 2xl:container xl:pe-[10rem] lg:pe-[6rem] md:pe-[6rem] pe-[2.1rem] mx-auto;
+}
+
+.carousel-container {
+  @apply 2xl:container xl:pe-[11rem] lg:pe-[7rem] md:pe-[3.8rem] pe-[2.1rem] mx-auto;
 }
 
 .hamburger {
