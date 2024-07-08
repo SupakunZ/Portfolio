@@ -47,9 +47,9 @@ const Card = ({ project, classes, isDesktop }) => {
           }}
         >
           <img
-            src="../../../public/project-bg2.svg"
+            src="../../../public/project-bg4.svg"
             alt="project"
-            className="absolute w-full h-full top-0 left-0 object-cover opacity-30"
+            className="absolute w-full h-full top-0 left-0 object-cover opacity-100"
           />
           <img
             src={image}
