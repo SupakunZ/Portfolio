@@ -147,7 +147,7 @@ export const experiences = [
 export const PROJECTS = [
   {
     name: "Pokédex",
-    image: "/projects/airbnb.webp",
+    image: "../../../public/projects/pokedex.png",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description: "Pokédex App using PokeAPI + ReactJs + Tailwind CSS 🌏",
     gradient: ["#F14658", "#DC2537"],
@@ -156,7 +156,7 @@ export const PROJECTS = [
   },
   {
     name: "Tesla",
-    image: "/projects/medium.webp",
+    image: "../../../public/projects/tesla.png",
     blurImage: "/projects/blur/medium-blur.webp",
     description: "Tesla UI clone using ReactJs + Bootstrap5 🚗",
     gradient: ["#FFA62E", "#EA4D2C"],
@@ -165,7 +165,7 @@ export const PROJECTS = [
   },
   {
     name: "Spacex",
-    image: "/projects/inshorts.webp",
+    image: "../../../public/projects/spacex.png",
     blurImage: "/projects/blur/airbnb-blur.webp",
     description:
       "Spacex UI clone using ReactJs 👽",
@@ -174,9 +174,9 @@ export const PROJECTS = [
     tech: ["vitejs", "react"],
   },
   {
-    name: "GNSS-RTK",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
+    name: "Gnss-Rtk",
+    image: "../../../public/projects/gnss-rtk.png",
+    blurImage: "../../../public/projects/tesla.png",
     description: "GNSS-RTK Navigation App using Python 🏆",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/SupakunZ/GNSS_RTK",
@@ -184,10 +184,10 @@ export const PROJECTS = [
   },
   {
     name: "Portfolio",
-    image: "/projects/tesla.webp",
+    image: "../../../public/projects/portfolio.png",
     blurImage: "/projects/blur/tesla-blur.webp",
     description: "Portfolio using ReactJs + Tailwind CSS 🚀",
-    gradient: ["#FFA62E", "#EA4D2C"],
+    gradient: ["#5800ca", "#b37afd"],
     url: "https://github.com/SupakunZ/Portfolio",
     tech: ["vitejs", "react", "tailwind", "sass"],
   },
