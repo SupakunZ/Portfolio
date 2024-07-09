@@ -23,7 +23,7 @@ const Project = ({ isDesktop, clientHeight }) => {
           } w-full relative select-none section-container my-12 lg:my-24 transform-gpu`}
       >
         <div className='w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all' />
-        <img src="../../../public/hero.svg" alt="Hero" width={1572} height={795} className=" absolute top-[0]" />
+        <img src="../../../public/hero.svg" alt="Hero" className="absolute top-[0] h-[100%] object-cover" />
         <div className="relative z-[11]">
           <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30"></div>
           <div className="flex items-center justify-start relative">

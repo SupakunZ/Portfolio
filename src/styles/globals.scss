@@ -21,7 +21,7 @@
 html {
   scroll-behavior: smooth;
   -ms-overflow-style: scrollbar;
-  // overflow-x: hidden;
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 
   @media (min-width: 320px) {
@@ -46,6 +46,12 @@ html {
 
   @media (min-width: 2000px) {
     font-size: 22px;
+  }
+}
+
+@media (min-height:375px) {
+  .h-container {
+    height: 95vh !important;
   }
 }
 
@@ -81,7 +87,7 @@ body {
 }
 
 .carousel-container {
-  @apply 2xl:container xl:pe-[11rem] lg:pe-[7rem] md:pe-[3.8rem] pe-[2.1rem] mx-auto;
+  @apply 2xl:container xl:pe-[11rem] lg:pe-[5.5rem] md:pe-[3rem] mx-auto;
 }
 
 .hamburger {
@@ -179,10 +185,6 @@ body {
     transition: all 0.4s ease;
     backface-visibility: hidden;
     background: rgba(0, 0, 0, 0.8);
-    //check it out later when more text is on the background to change the opacity
-    // @supports not (backdrop-filter: blur(0.625rem)) {
-    //   background: rgba(0, 0, 0, 0.8);
-    // }
 
     >div {
       max-width: 90vw;

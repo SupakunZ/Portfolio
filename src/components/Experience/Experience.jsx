@@ -7,14 +7,12 @@ import experience from '../../../public/json/study.json';
 import { BsPersonWorkspace } from "react-icons/bs";
 
 
-
-
 const Experience = () => {
   return (
     <>
       <section id={MENULINKS[0].ref} className=' w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 min-h-screen relative select-none' style={{ opacity: "1" }}>
         <div className='w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all' />
-        <img src="../../../public/hero.svg" alt="Hero" width={1572} height={795} className=" absolute top-[0]" />
+        <img src="../../../public/hero.svg" alt="Hero" className="absolute top-[0] h-[100%] object-cover" />
         <div id="experience" className="relative z-10 border-t  border-[#25213b]">
           <div className="flex justify-center my-5 lg:py-8">
             <div className="flex  items-center">
@@ -27,8 +25,8 @@ const Experience = () => {
           </div>
           <div className="py-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-              <div className="flex justify-center items-start">
-                <div className="w-full h-full">
+              <div className="flex justify-center items-center">
+                <div className="w-full h-full flex justify-center items-center">
                   <AnimationLottie animationPath={experience} />
                 </div>
               </div>
