@@ -7,6 +7,8 @@ import experience from '../../../public/json/study.json';
 import { BsPersonWorkspace } from "react-icons/bs";
 
 
+
+
 const Experience = () => {
   return (
     <>

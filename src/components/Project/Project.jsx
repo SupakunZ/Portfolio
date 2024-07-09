@@ -24,7 +24,7 @@ const Project = ({ isDesktop, clientHeight }) => {
       >
         <div className='w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all' />
         <img src="../../../public/hero.svg" alt="Hero" width={1572} height={795} className=" absolute top-[0]" />
-        <div className="sticky top-10 z-[11]">
+        <div className="relative z-[11]">
           <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30"></div>
           <div className="flex items-center justify-start relative">
             <span className="bg-[#1a1443] absolute left-0  w-fit text-white px-5 py-3 text-xl rounded-md">
