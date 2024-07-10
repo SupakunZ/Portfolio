@@ -37,12 +37,12 @@ export const MENULINKS = [
     ref: "home",
   },
   {
-    name: "Skills",
-    ref: "skills",
-  },
-  {
     name: "About",
     ref: "about",
+  },
+  {
+    name: "Experience",
+    ref: "experience",
   },
   {
     name: "Projects",
@@ -202,7 +202,7 @@ export const personalData = {
   phone: '0622787171',
   address: 'Chiang Rai, Thailand - 57160 ',
   github: 'https://github.com/SupakunZ',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  instagram: 'https://www.instagram.com/gunnkkun_/',
   linkedIn: 'https://www.google.co.th/',
   twitter: 'https://x.com/GuNz246448',
   stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',

@@ -20,7 +20,7 @@ const Menu = () => {
           <ul className='list-none py-4 px-0 block max-h-screen text-center'>
             {MENULINKS.map((item) => (
               <li key={item.name} className='p-0 m-6 text-2xl block'>
-                <a className="link relative inline font-mono font-bold text-5xl duration-300 hover:no-underline" href={`#${item.ref}`}>
+                <a className="link relative inline font-bold text-4xl duration-300 hover:no-underline" href={`#${item.ref}`}>
                   {item.name}
                 </a>
               </li>

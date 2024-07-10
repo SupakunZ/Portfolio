@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 const About = () => {
   return (
     <>
-      <section id={MENULINKS[0].ref} className=' w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 h-container h-screen relative select-none' style={{ opacity: "1" }}>
+      <section id={MENULINKS[1].ref} className=' w-full flex md:items-center py-8 2xl:container mx-auto xl:px-20 md:px-12 px-4 h-container h-screen relative select-none' style={{ opacity: "1" }}>
         <div className='w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all' />
         <img src="../../../public/hero.svg" alt="Hero" className="absolute top-[0] h-[100%] object-cover" />
         <div className="flex flex-col top-20 z-10 select-none">

@@ -7,22 +7,35 @@ import Experience from './components/Experience/Experience'
 import Project from './components/Project/Project'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import Loader from './components/Loader/Loader'
 
 function App() {
 
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3500);
+  }, []);
+
   return (
     <>
-      <Header>
-        <Menu />
-      </Header>
-      <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Project />
-        <Contact />
-      </main>
-      <Footer />
+      {isLoading ? <Loader /> :
+        <>
+          <Header>
+            <Menu />
+          </Header>
+          <main>
+            <Hero />
+            <About />
+            <Experience />
+            <Project />
+            <Contact />
+          </main>
+          <Footer />
+        </>
+      }
     </>
   )
 }

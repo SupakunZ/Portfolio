@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <>
-      <section id={MENULINKS[0].ref} className='w-full flex md:items-center py-8 h-container 2xl:container mx-auto xl:px-20 md:px-12 px-4 h-screen relative ' style={{ opacity: "1" }}>
+      <section id={MENULINKS[0].ref} className={`w-full flex md:items-center py-8 h-container 2xl:container mx-auto xl:px-20 md:px-12 px-4 h-screen relative ${styles.fadecontent} `}>
         <img src="../../../public/hero.svg" alt="Hero" className="absolute top-[0] h-[100%] object-cover" />
         <div className="flex flex-col pt-40 md:pt-0 select-none">
           <div className={`${styles.intro} flex gap-3`}>

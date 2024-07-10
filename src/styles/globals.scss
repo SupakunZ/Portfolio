@@ -2,17 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(112, 0, 255, 0.05);
   // cursor: none;
 }
@@ -74,6 +70,7 @@ html {
 }
 
 body {
+
   box-sizing: border-box;
   @apply bg-black text-white overflow-x-hidden;
 }
@@ -241,5 +238,11 @@ body {
 .icon-contact {
   a {
     z-index: 1;
+    background-color: #1a1717;
   }
+}
+
+.ig:hover {
+  background: radial-gradient(circle at 30% 110%, #ffdb8b 0%,
+      #ee653d 25%, #d42e81 50%, #a237b6 75%, #3e5fbc 100%);
 }

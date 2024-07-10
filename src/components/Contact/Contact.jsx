@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { MENULINKS, personalData } from '../../../constants'
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
-import { FaFacebook, FaStackOverflow } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaStackOverflow } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
@@ -16,7 +16,7 @@ const Contact = ({ isDesktop }) => {
     <>
       <section
         ref={sectionRef}
-        id={MENULINKS[2].ref}
+        id={MENULINKS[4].ref}
         className="w-full relative select-none section-container"
       >
         <div className='w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all' />
@@ -107,33 +107,27 @@ const Contact = ({ isDesktop }) => {
                 </p>
               </div>
               <div className="icon-contact mt-9 lg:mt-[4rem] flex items-center gap-6 lg:gap-9">
-                <a target="_blank" href={personalData.github}>
+                <a className='rounded-full' target="_blank" href={personalData.github}>
                   <IoLogoGithub
-                    className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                    className="bg-[#8b98a5] rounded-full p-3 hover:bg-[#333] hover:text-[#FFF] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                     size={48}
                   />
                 </a>
-                <a target="_blank" href={personalData.linkedIn}>
+                <a className='rounded-full' target="_blank" href={personalData.linkedIn}>
                   <BiLogoLinkedin
-                    className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                    className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#0A66C2] hover:text-[#FFF] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                     size={48}
                   />
                 </a>
-                <a target="_blank" href={personalData.twitter}>
+                <a className='rounded-full' target="_blank" href={personalData.instagram}>
+                  <FaInstagram
+                    className="bg-[#8b98a5] p-3 rounded-full ig  hover:text-[#FFF] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                    size={48}
+                  />
+                </a>
+                <a className='rounded-full' target="_blank" href={personalData.twitter}>
                   <FaXTwitter
-                    className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                    size={48}
-                  />
-                </a>
-                <a target="_blank" href={personalData.stackOverflow}>
-                  <FaStackOverflow
-                    className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                    size={48}
-                  />
-                </a>
-                <a target="_blank" href={personalData.facebook}>
-                  <FaFacebook
-                    className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                    className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#1a1717] hover:text-[#FFF] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                     size={48}
                   />
                 </a>
