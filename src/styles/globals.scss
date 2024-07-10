@@ -87,6 +87,26 @@ body {
   @apply 2xl:container xl:pe-[11rem] lg:pe-[5.5rem] md:pe-[3rem] mx-auto;
 }
 
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(112, 0, 255, 0.75);
+  opacity: 0.5;
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7000ff;
+  opacity: 1;
+}
+
 .hamburger {
   z-index: 1;
   backface-visibility: hidden;
