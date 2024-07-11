@@ -25,13 +25,13 @@ const Experience = () => {
           </div>
           <div className="py-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-              <div className="flex justify-center items-center">
+              <div className="flex justify-center items-center" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
                 <div className="w-full h-full flex justify-center items-center">
                   <AnimationLottie animationPath={experience} />
                 </div>
               </div>
               <div>
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col gap-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
                   {
                     experiences.map(experience => (
                       <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>

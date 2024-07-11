@@ -8,6 +8,8 @@ import Project from './components/Project/Project'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import Loader from './components/Loader/Loader'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
 
@@ -18,6 +20,10 @@ function App() {
       setIsLoading(false);
     }, 3500);
   }, []);
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <>

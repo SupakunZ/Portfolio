@@ -29,32 +29,32 @@ const Contact = ({ isDesktop }) => {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 items-center'>
           <div class="container mx-auto px-5 pb-5 lg:pb-24 pt-24">
-            <div class="mb-12 flex w-full justify-center gap-3 items-center">
+            <div class="mb-12 flex w-full justify-center gap-3 items-center" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
               <h1 class="title-font mb-4 text-4xl font-medium text-gradient w-fit">Contact Us</h1>
               <span className="block animate-bounce text-3xl">❤️</span>
             </div>
             <div class="mx-auto max-w-[75%] lg:w-[85%] ">
               <div class="-m-2 flex flex-wrap">
                 {/* <!-- form --> */}
-                <div class="w-1/2 p-2">
+                <div class="w-1/2 p-2" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                   <div class="relative">
                     <input type="text" id="name" name="name" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="Name" />
                     <label for="name" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Name</label>
                   </div>
                 </div>
-                <div class="w-1/2 p-2">
+                <div class="w-1/2 p-2" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                   <div class="relative">
                     <input type="email" id="email" name="email" class="peer w-full rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="Email" />
                     <label for="email" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Email</label>
                   </div>
                 </div>
-                <div class="mt-4 w-full p-2">
+                <div class="mt-4 w-full p-2" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                   <div class="relative">
                     <textarea id="message" name="message" class="peer h-32 w-full resize-none rounded border border-gray-700 bg-gray-800 bg-opacity-40 py-1 px-3 text-base leading-6 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900" placeholder="Message"></textarea>
                     <label for="message" class="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-indigo-500 transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-sm peer-focus:text-indigo-500">Message</label>
                   </div>
                 </div>
-                <div class="w-full p-2">
+                <div class="w-full p-2" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                   <button className={styles.button} >
                     <span>Send -&gt;</span>
                     <span className={styles.success}>
@@ -78,7 +78,7 @@ const Contact = ({ isDesktop }) => {
           </div>
           {/* <!-- contact --> */}
           <div className='container mx-auto lg:px-5 px-[14%] pb-24 lg:py-24 flex items-center justify-start lg:justify-center'>
-            <div className="lg:w-3/4 pt-10">
+            <div className="lg:w-3/4 pt-10" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
               <div className="flex flex-col gap-4 lg:gap-8">
                 <p className="text-sm md:text-xl flex items-center gap-3">
                   <MdAlternateEmail

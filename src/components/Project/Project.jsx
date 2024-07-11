@@ -33,7 +33,7 @@ const Project = ({ isDesktop, clientHeight }) => {
             <span className="w-full h-[1.7px] bg-[#1a1443]"></span>
           </div>
         </div>
-        <div className="flex flex-col justify-center h-full pt-[5.5rem]">
+        <div className="flex flex-col justify-center h-full pt-[5.5rem]" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
           <div
             className="flex flex-col inner-container transform-gpu z-[11]"
             ref={sectionTitleRef}
@@ -49,7 +49,7 @@ const Project = ({ isDesktop, clientHeight }) => {
             className={`${clientHeight > 650 ? "mt-12" : "mt-8"
               } flex project-wrapper no-scrollbar w-fit`}
           >
-            <div className="flex items-center justify-center flex-col carousel-container w-[100vw]">
+            <div className="flex items-center justify-center flex-col carousel-container w-[100vw]" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
               <Swiper
                 breakpoints={{
                   360: {
