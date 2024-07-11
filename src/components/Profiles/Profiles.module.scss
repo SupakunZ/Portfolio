@@ -13,7 +13,8 @@
       filter: brightness(1.1);
 
       svg {
-        stroke: #9f55ff;
+        stroke: #9f55ff !important;
+        color: #9f55ff;
       }
     }
   }
