@@ -15,7 +15,6 @@ export const METADATA = {
   title: "Portfolio | Supakun Thata",
   description:
     "Supakun Thata is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  twitterHandle: "@shubh731",
   keywords: [
     "Supakun Thata",
     "Frontend Engineer",
@@ -52,8 +51,8 @@ export const MENULINKS = [
 
 export const TYPED_STRINGS = [
   "I'm Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "I like to learn things",
+  "I develop things for the web",
 ];
 
 export const SOCIAL_LINKS = [
