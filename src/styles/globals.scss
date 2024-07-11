@@ -15,7 +15,9 @@
 
 
 html {
-  scroll-behavior: smooth;
+
+  scroll-behavior: smooth !important;
+  overflow-y: scroll;
   -ms-overflow-style: scrollbar;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
