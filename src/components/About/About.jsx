@@ -11,21 +11,21 @@ const About = () => {
         <div className="flex flex-col top-20 z-10 select-none">
           <div className="flex flex-col skills-wrapper">
             <div className="flex flex-col" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-              <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
+              <p className="uppercase tracking-widest text-gray-light-1">
                 ABOUT
               </p>
-              <h1 className="text-4xl mt-2 font-medium text-gradient w-fit staggered-reveal">
+              <h1 className="text-4xl mt-2 font-medium text-gradient w-fit">
                 Who I am?
               </h1>
-              <h2 className="text-[1rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
+              <h2 className="text-[1rem] font-medium md:max-w-lg w-full mt-2">
                 My name is Supakun Thata. I am Frontend developer. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies, passionate about problem-solving and like almost all the stacks of web application development.
               </h2>
             </div>
             <div className="mt-10 flex flex-col gap-3" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-              <h1 className="text-4xl mt-2 font-medium text-gradient w-fit staggered-reveal" >
+              <h1 className="text-4xl mt-2 font-medium text-gradient w-fit" >
                 Skills
               </h1>
-              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4 staggered-reveal">
+              <h3 className="uppercase tracking-widest text-gray-light-2 font-medium text-base mb-4">
                 LANGUAGES AND TOOLS
               </h3>
             </div>

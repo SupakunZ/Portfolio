@@ -38,10 +38,10 @@ const Project = ({ isDesktop, clientHeight }) => {
             className="flex flex-col inner-container transform-gpu z-[11]"
             ref={sectionTitleRef}
           >
-            <h1 className="text-4xl font-medium text-gradient w-fit staggered-reveal">
+            <h1 className="text-4xl font-medium text-gradient w-fit">
               My Projects
             </h1>
-            <p className="uppercase mt-5 tracking-widest text-gray-light-1 staggered-reveal">
+            <p className="uppercase mt-5 tracking-widest text-gray-light-1">
               PROJECTS
             </p>
           </div>

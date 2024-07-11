@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer'
 import Loader from './components/Loader/Loader'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ScrollToTop from './components/helper/scroll-to-top'
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Header>
             <Menu />
           </Header>
+          <ScrollToTop />
           <main>
             <Hero />
             <About />

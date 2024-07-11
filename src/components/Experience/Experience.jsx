@@ -49,7 +49,7 @@ const Experience = () => {
                             </p>
                           </div>
                           <div className="flex items-center gap-x-8 px-3 py-5">
-                            <div className="text-violet-500  transition-all duration-300 hover:scale-125">
+                            <div className="text-violet-500 transition-all duration-300 hover:scale-125">
                               <BsPersonWorkspace size={36} />
                             </div>
                             <div>
