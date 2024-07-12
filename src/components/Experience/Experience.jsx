@@ -37,7 +37,7 @@ const Experience = () => {
                       <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                         <div className="p-3 relative">
                           <img
-                            src="../../../public/blur-23.svg"
+                            src="/blur-23.svg"
                             alt="Hero"
                             width={1080}
                             height={200}
