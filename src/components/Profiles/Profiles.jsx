@@ -1,5 +1,4 @@
 import { SOCIAL_LINKS } from "../../../constants";
-// import { Icon } from "../Icons/icon";
 import styles from "./Profiles.module.scss";
 
 
