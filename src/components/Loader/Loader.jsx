@@ -11,7 +11,7 @@ const Loader = () => {
       if (number >= 100) {
         return clearInterval(count);
       }
-    }, 30)
+    }, 20)
   }
 
   useEffect(() => {
