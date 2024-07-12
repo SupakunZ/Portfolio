@@ -2,7 +2,6 @@ import React from 'react'
 import { useEffect, useRef } from "react";
 import VanillaTilt from "vanilla-tilt";
 import styles from "./ProjectTile.module.scss";
-// import '../../../public/projects/'
 
 const Card = ({ project, classes, isDesktop }) => {
 
@@ -47,7 +46,7 @@ const Card = ({ project, classes, isDesktop }) => {
           }}
         >
           <img
-            src="../../../public/project-bg4.svg"
+            src="/project-bg4.svg"
             alt="project"
             className="absolute w-full h-full top-0 left-0 object-cover opacity-100"
           />
@@ -82,7 +81,7 @@ const Card = ({ project, classes, isDesktop }) => {
               {project.tech.map((el, i) => (
                 <img
                   className={`${i % 2 === 0 && "ml-14"} mb-4 relative left-[-4.5rem]`}
-                  src={`../../../public/skills/${el}.svg`}
+                  src={`/skills/${el}.svg`}
                   alt={el}
                   height={38}
                   width={38}

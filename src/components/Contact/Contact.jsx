@@ -20,7 +20,7 @@ const Contact = ({ isDesktop }) => {
         className="w-full relative select-none section-container"
       >
         <div className='w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all' />
-        <img src="../../../public/hero.svg" alt="Hero" className="absolute top-[0] h-[100%] object-cover" />
+        <img src="/public/hero.svg" alt="Hero" className="absolute top-[0] h-[100%] object-cover" />
         <div className="hidden lg:flex flex-col items-center absolute top-[26%] right-[-2rem] xl:right-[2rem] ">
           <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
             Contacts

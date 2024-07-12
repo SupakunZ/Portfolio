@@ -142,8 +142,8 @@ export const experiences = [
 export const PROJECTS = [
   {
     name: "Pokédex",
-    image: "../../../public/projects/pokedex.png",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    image: "/projects/pokedex.png",
+    blurImage: "/projects/pokedex.png",
     description: "Pokédex App using PokeAPI + ReactJs + Tailwind CSS 🌏",
     gradient: ["#F14658", "#DC2537"],
     url: "https://github.com/SupakunZ/Pokedex_App",
@@ -151,8 +151,8 @@ export const PROJECTS = [
   },
   {
     name: "Tesla",
-    image: "../../../public/projects/tesla.png",
-    blurImage: "/projects/blur/medium-blur.webp",
+    image: "/projects/tesla.png",
+    blurImage: "/projects/tesla.png",
     description: "Tesla UI clone using ReactJs + Bootstrap5 🚗",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://tesla-cloness.netlify.app/",
@@ -160,8 +160,8 @@ export const PROJECTS = [
   },
   {
     name: "Spacex",
-    image: "../../../public/projects/spacex.png",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    image: "/projects/spacex.png",
+    blurImage: "/projects/spacex.png",
     description:
       "Spacex UI clone using ReactJs 👽",
     gradient: ["#000066", "#6699FF"],
@@ -170,8 +170,8 @@ export const PROJECTS = [
   },
   {
     name: "Gnss-Rtk",
-    image: "../../../public/projects/gnss-rtk.png",
-    blurImage: "../../../public/projects/tesla.png",
+    image: "/projects/gnss-rtk.png",
+    blurImage: "/projects/gnss-rtk.png",
     description: "GNSS-RTK Navigation App using Python 🏆",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/SupakunZ/GNSS_RTK",
@@ -179,8 +179,8 @@ export const PROJECTS = [
   },
   {
     name: "Portfolio",
-    image: "../../../public/projects/portfolio.png",
-    blurImage: "/projects/blur/tesla-blur.webp",
+    image: "/projects/portfolio.png",
+    blurImage: "/projects/portfolio.png",
     description: "Portfolio using ReactJs + Tailwind CSS 🚀",
     gradient: ["#5800ca", "#b37afd"],
     url: "https://github.com/SupakunZ/Portfolio",
