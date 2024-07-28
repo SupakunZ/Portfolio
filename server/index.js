@@ -4,6 +4,7 @@ const cors = require('cors')
 const connectDB = require('./db/connectDB')
 const contactModel = require('./models/contactModel')
 const dotenv = require('dotenv').config()
+const port = process.env.PORT || 5000
 
 
 app.use(express.json())
@@ -12,8 +13,8 @@ app.use(cors())
 connectDB()
 
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server is running on port ${process.env.PORT}`)
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`)
 })
 
 
