@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const dotenv = require('dotenv').config()
 
 module.exports = async (req, res) => {
   try {

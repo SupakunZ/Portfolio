@@ -3,6 +3,7 @@ const app = express()
 const cors = require('cors')
 const connectDB = require('./db/connectDB')
 const contactModel = require('./models/contactModel')
+const dotenv = require('dotenv').config()
 
 
 app.use(express.json())
