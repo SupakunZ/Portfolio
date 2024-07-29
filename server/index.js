@@ -19,6 +19,9 @@ app.listen(port, () => {
 
 
 // Route
+app.get('/contact', (req, res) => {
+  res.send('Successfully connected to server.')
+})
 app.post('/contact', async (req, res) => {
 
   const data = {
@@ -27,5 +30,5 @@ app.post('/contact', async (req, res) => {
     message: req.body.message
   }
   await contactModel.insertMany(data)
-  res.send('success')
+  res.send('Data was successfully sent to the server.')
 })
