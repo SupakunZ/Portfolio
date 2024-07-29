@@ -22,6 +22,7 @@ const Contact = ({ isDesktop }) => {
       .then(res => {
         console.log(res)
         reset()
+        alert(res.data)
       })
       .catch(err => console.log(err))
   }
