@@ -47,7 +47,7 @@ const Project = ({ isDesktop, clientHeight }) => {
           </div>
           <div
             className={`${clientHeight > 650 ? "mt-12" : "mt-8"
-              } flex project-wrapper no-scrollbar w-fit`}
+              } flex project-wrapper no-scrollbar overflow-hidden`}
           >
             <div className="flex items-center justify-center flex-col carousel-container w-[100vw]" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
               <Swiper
@@ -78,7 +78,7 @@ const Project = ({ isDesktop, clientHeight }) => {
                 }}
                 navigation={true}
                 modules={[Autoplay, Pagination, Navigation]}
-                className="max-w-[90%] lg:max-w-[100%]"
+                className="max-w-[100%] pl-[8px]"
               >
                 {PROJECTS.map((project, index) => (
                   <SwiperSlide key={index}>
