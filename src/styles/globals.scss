@@ -35,6 +35,10 @@ html {
   }
 
   @media (min-width: 1536px) {
+    .carousel-container {
+      width: 100vw !important;
+    }
+
     font-size: 18px;
   }
 
@@ -72,10 +76,8 @@ html {
   margin: 7px !important;
 }
 
-@media screen and (max-width:1024px) {
-  .swiper-button-next::after {
-    margin-right: 85px !important
-  }
+.swiper-button-next::after {
+  @apply mr-[84px] sm:mr-[87px] md:mr-[120px] lg:mr-[16px] #{!important}
 }
 
 .swiper-button-prev::after {
@@ -100,7 +102,7 @@ body {
 }
 
 .carousel-container {
-  @apply xl:pe-[10rem] lg:pe-[5.5rem] md:pe-[3rem] mx-auto;
+  @apply 2xl:container xl:pe-[10rem] lg:pe-[5.5rem] md:pe-[3rem] mx-auto;
 }
 
 ::-webkit-scrollbar {
