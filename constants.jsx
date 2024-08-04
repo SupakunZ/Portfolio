@@ -8,16 +8,24 @@ import figma from './public/skills/figma.svg';
 import git from './public/skills/git.svg';
 import tailwind from './public/skills/tailwind.svg';
 import { FaXTwitter } from "react-icons/fa6";
+import mongoDB from './public/skills/mongoDB.svg'
+import mongoDB2 from './public/skills/mongoDB2.svg'
+import mysql from './public/skills/mysql.svg'
+import python from './public/skills/python.svg'
+import sass from './public/skills/sass.svg'
+import nodejs from './public/skills/nodejs.svg'
+
+
 
 
 export const METADATA = {
   author: "Supakun Thata",
   title: "Portfolio | Supakun Thata",
   description:
-    "Supakun Thata is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Supakun Thata is a passionate FullStack Developer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   keywords: [
     "Supakun Thata",
-    "Frontend Engineer",
+    "FullStack Developer",
     "React Native Developer",
     "Software Engineer",
     "Portfolio",
@@ -50,7 +58,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I'm Frontend Developer",
+  "I'm FullStack Developer",
   "I like to learn things",
   "I develop things for the web",
 ];
@@ -85,11 +93,11 @@ export const SOCIAL_LINKS = [
 
 export const SKILLS = [
   {
-    tools: "HTML",
+    tools: "Html",
     img: html
   },
   {
-    tools: "CSS",
+    tools: "Css",
     img: css
   },
   {
@@ -105,23 +113,39 @@ export const SKILLS = [
     img: tailwind
   },
   {
-    tools: "Git",
-    img: git
-  },
-  {
     tools: "Bootstrap",
     img: bootstrap
   },
   {
-    tools: "Figma",
-    img: figma
+    tools: "Git",
+    img: git
+  },
+  {
+    tools: "Python",
+    img: python
+  },
+  {
+    tools: "Sass",
+    img: sass
+  },
+  {
+    tools: "Nodejs",
+    img: nodejs
+  },
+  {
+    tools: "MongoDB",
+    img: mongoDB
+  },
+  {
+    tools: "Mysql",
+    img: mysql
   },
 ];
 
 export const experiences = [
   {
     id: 1,
-    title: "Frontend Developer",
+    title: "FullStack Developer",
     company: "FullStack Development Bootcamp | Westride",
     duration: "(Mar 2024 - Present)"
   },
@@ -160,8 +184,8 @@ export const PROJECTS = [
   },
   {
     name: "Spacex",
-    image: "/projects/spacex.png",
-    blurImage: "/projects/spacex.png",
+    image: "/projects/spacex_2.png",
+    blurImage: "/projects/spacex_2.png",
     description:
       "Spacex UI clone using ReactJs 👽",
     gradient: ["#000066", "#6699FF"],
@@ -179,12 +203,12 @@ export const PROJECTS = [
   },
   {
     name: "Portfolio",
-    image: "/projects/portfolio.png",
-    blurImage: "/projects/portfolio.png",
+    image: "/projects/portfolio_2.png",
+    blurImage: "/projects/portfolio_2.png",
     description: "Portfolio using ReactJs + Tailwind CSS 🚀",
     gradient: ["#5800ca", "#b37afd"],
     url: "https://github.com/SupakunZ/Portfolio",
-    tech: ["vitejs", "react", "tailwind", "sass"],
+    tech: ["vitejs", "react", "tailwind", "sass", "nodejs", "mongoDB2"],
   },
 ];
 

@@ -18,7 +18,7 @@ const About = () => {
                 Who I am?
               </h1>
               <h2 className="text-[1rem] font-medium md:max-w-lg w-full mt-2">
-                My name is Supakun Thata. I am Frontend developer. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies, passionate about problem-solving and like almost all the stacks of web application development.
+                My name is Supakun Thata. I am FullStack Developer. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies, passionate about problem-solving and like almost all the stacks of web application development.
               </h2>
             </div>
             <div className="mt-10 flex flex-col gap-3" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
