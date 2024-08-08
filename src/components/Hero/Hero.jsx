@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { MENULINKS, TYPED_STRINGS } from '../../../constants'
+import { MENULINKS, personalData, TYPED_STRINGS } from '../../../constants'
 import styles from "./Hero.module.scss";
 import Profiles from '../Profiles/Profiles';
 import Button from '../Button/Button';
@@ -33,7 +33,7 @@ const Hero = () => {
             <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
               CONTACT ME
             </Button>
-            <Button href={`#${MENULINKS[4].ref}`} classes="link" type="secondary">
+            <Button href={personalData.resume} target="_blank" classes="link" type="secondary">
               GET RESUME
             </Button>
           </div>

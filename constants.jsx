@@ -224,6 +224,6 @@ export const personalData = {
   linkedIn: 'https://www.google.co.th/',
   twitter: 'https://x.com/GuNz246448',
   devUsername: "NEOSPEX",
-  resume: "https://drive.google.com/"
+  resume: "https://drive.google.com/file/d/1dSu61G1LeWmSopiLE5OIPjW-ufvBbBbo/view?usp=drive_link"
 }
 
