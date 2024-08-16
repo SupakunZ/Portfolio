@@ -17,7 +17,7 @@ const Contact = ({ isDesktop }) => {
   const sectionRef = useRef(null)
   const { register, handleSubmit, reset } = useForm()
 
-  const onSubmit = async (data) => {
+  const onSubmit = async (data) => { // ** useForm ต้องรับ data  **
     await axios.post(`${URL}/contact`, data)
       .then(res => {
         console.log(res)
