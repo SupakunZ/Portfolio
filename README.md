@@ -1,4 +1,4 @@
-# Portfolio Website
+# Portfolio | react app
 Portfolio Website is developed using ReactJS TailwindCSS SCSS for the client and NodeJS MongoDB for the server.
 
 https://github.com/SupakunZ/SpaceX_Clone/assets/168329218/3bd11cc4-65fa-48db-8d31-59d734a7e2ab
