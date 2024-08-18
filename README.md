@@ -1,7 +1,7 @@
 # Portfolio
 Portfolio Website is developed using ReactJS TailwindCSS SCSS for the client and NodeJS MongoDB for the server.
 
-https://github.com/SupakunZ/SpaceX_Clone/assets/168329218/3bd11cc4-65fa-48db-8d31-59d734a7e2ab
+https://github.com/user-attachments/assets/37406e0a-8b13-4081-b01a-4524b0d56029
 
 ## 🌸 Live Demo 
 <a href='https://portfolio-supakun.netlify.app' target="_blank">Portfolio-website</a>
