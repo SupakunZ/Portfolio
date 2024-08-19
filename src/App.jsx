@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       {isLoading ? <Loader time={setIsLoading} /> :
-        <>
+        <div className='transition ease-in-out duration-[1s]'>
           <Header>
             <Menu />
           </Header>
@@ -42,7 +42,7 @@ function App() {
             <Contact />
           </main>
           <Footer />
-        </>
+        </div>
       }
     </>
   )
