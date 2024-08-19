@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import style from './Loader.module.scss'
 
-const Loader = () => {
+const Loader = ({ time }) => {
 
   var [number, setNumber] = useState(0)
 
-  const counTer = () => {
+  const counTer = async () => {
     const count = setInterval(() => {
-      setNumber(number++)
-      if (number >= 100) {
+      setNumber(number += 1)
+      if (number > 100) {
+        time(false)
         return clearInterval(count);
       }
     }, 60)
