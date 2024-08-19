@@ -12,7 +12,7 @@ const Loader = ({ time }) => {
         time(false)
         return clearInterval(count);
       }
-    }, 60)
+    }, 40)
   }
 
   useEffect(() => {
