@@ -8,9 +8,11 @@ const Loader = ({ time }) => {
   const counTer = async () => {
     const count = setInterval(() => {
       setNumber(number += 1)
-      if (number > 100) {
-        time(false)
-        return clearInterval(count);
+      if (number > 98) {
+        clearInterval(count);
+        setTimeout(() => {
+          return time(false)
+        }, 1000)
       }
     }, 40)
   }
