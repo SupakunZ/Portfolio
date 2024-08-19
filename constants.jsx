@@ -168,7 +168,7 @@ export const PROJECTS = [
     name: "Pokédex",
     image: "/projects/pokedex.png",
     blurImage: "/projects/pokedex.png",
-    description: "Pokédex App using PokeAPI + ReactJs + Tailwind CSS 🌏",
+    description: "Pokédex App using PokeAPI + ReactJs 🌏",
     gradient: ["#F14658", "#DC2537"],
     url: "https://github.com/SupakunZ/Pokedex_App",
     tech: ["typescript", "vitejs", "react", "tailwind", "sass"],
@@ -181,6 +181,24 @@ export const PROJECTS = [
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://tesla-cloness.netlify.app/",
     tech: ["vitejs", "react", "bootstrap5"],
+  },
+  {
+    name: "Portfolio",
+    image: "/projects/portfolio_2.png",
+    blurImage: "/projects/portfolio_2.png",
+    description: "Portfolio using Tailwind CSS + NodeJS 🚀",
+    gradient: ["#5800ca", "#b37afd"],
+    url: "https://github.com/SupakunZ/Portfolio",
+    tech: ["vitejs", "react", "tailwind", "sass", "nodejs", "mongoDB2"],
+  },
+  {
+    name: "E-commerce",
+    image: "/projects/ecommerce.png",
+    blurImage: "/projects/ecommerce.png",
+    description: "E-commerce using Tailwind CSS + NodeJS 🔥",
+    gradient: ["#0fd850", "#f9f047"],
+    url: "https://ecommercr.netlify.app/",
+    tech: ["vitejs", "react", "tailwind", "nodejs", "mongoDB2"],
   },
   {
     name: "Spacex",
@@ -200,16 +218,7 @@ export const PROJECTS = [
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/SupakunZ/GNSS_RTK",
     tech: ["python", "numpy"],
-  },
-  {
-    name: "Portfolio",
-    image: "/projects/portfolio_2.png",
-    blurImage: "/projects/portfolio_2.png",
-    description: "Portfolio using ReactJs + Tailwind CSS 🚀",
-    gradient: ["#5800ca", "#b37afd"],
-    url: "https://github.com/SupakunZ/Portfolio",
-    tech: ["vitejs", "react", "tailwind", "sass", "nodejs", "mongoDB2"],
-  },
+  }
 ];
 
 export const personalData = {
