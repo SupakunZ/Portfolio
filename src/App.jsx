@@ -16,12 +16,6 @@ function App() {
 
   const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 3500);  //3500
-  // }, []);
-
   useEffect(() => {
     AOS.init();
   }, [])

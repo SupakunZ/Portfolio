@@ -76,8 +76,9 @@ html {
   margin: 7px !important;
 }
 
+// --> right and left Project
 .swiper-button-next::after {
-  @apply mr-[84px] sm:mr-[87px] md:mr-[120px] lg:mr-[16px] #{!important}
+  @apply mr-[115px] sm:mr-[115px] md:mr-[120px] lg:mr-[16px] #{!important}
 }
 
 .swiper-button-prev::after {
