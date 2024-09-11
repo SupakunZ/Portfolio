@@ -22,10 +22,10 @@ export const METADATA = {
   author: "Supakun Thata",
   title: "Portfolio | Supakun Thata",
   description:
-    "Supakun Thata is a passionate FullStack Developer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Supakun Thata is a passionate Frontend Developer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   keywords: [
     "Supakun Thata",
-    "FullStack Developer",
+    "Frontend Developer",
     "React Native Developer",
     "Software Engineer",
     "Portfolio",
@@ -58,7 +58,7 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I'm FullStack Developer",
+  "I'm Frontend Developer",
   "I like to learn things",
   "I develop things for the web",
 ];
@@ -153,7 +153,7 @@ export const SKILLS = [
 export const experiences = [
   {
     id: 1,
-    title: "FullStack Developer",
+    title: "Frontend Developer",
     company: "FullStack Development Bootcamp | Westride",
     duration: "(Mar 2024 - Present)"
   },
