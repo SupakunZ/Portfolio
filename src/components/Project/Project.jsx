@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { MENULINKS, PROJECTS } from '../../../constants'
 import Card from './Card';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import 'swiper/css/navigation';
-import { FreeMode, Pagination, Autoplay, Navigation } from "swiper/modules";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
 
 
 const Project = ({ isDesktop, clientHeight }) => {
