@@ -1,19 +1,19 @@
-import { IconMail, IconLinkedin, IconInstagram, IconTwitter, IconGithub, IconExternal, } from "./src/components/Icons/index";
+import { IconMail, IconLinkedin, IconInstagram, IconGithub } from "./src/components/Icons/index";
 import html from './public/skills/html.svg';
 import css from './public/skills/css.svg';
 import javascript from './public/skills/javascript.svg';
 import react from './public/skills/react.svg';
 import bootstrap from './public/skills/bootstrap5.svg';
-import figma from './public/skills/figma.svg';
 import git from './public/skills/git.svg';
 import tailwind from './public/skills/tailwind.svg';
 import { FaXTwitter } from "react-icons/fa6";
 import mongoDB from './public/skills/mongoDB.svg'
-import mongoDB2 from './public/skills/mongoDB2.svg'
 import mysql from './public/skills/mysql.svg'
 import python from './public/skills/python.svg'
 import sass from './public/skills/sass.svg'
 import nodejs from './public/skills/nodejs.svg'
+import redux from './public/skills/redux.svg'
+import supabase from './public/skills/supabase.svg'
 
 
 
@@ -109,6 +109,10 @@ export const SKILLS = [
     img: react
   },
   {
+    tools: "Redux",
+    img: redux
+  },
+  {
     tools: "Tailwind",
     img: tailwind
   },
@@ -140,6 +144,10 @@ export const SKILLS = [
     tools: "Mysql",
     img: mysql
   },
+  {
+    tools: "Supabase",
+    img: supabase
+  },
 ];
 
 export const experiences = [
@@ -166,8 +174,8 @@ export const experiences = [
 export const PROJECTS = [
   {
     name: "Pokédex",
-    image: "/projects/pokedex.png",
-    blurImage: "/projects/pokedex.png",
+    image: "/projects/pokedex.webp",
+    blurImage: "/projects/pokedex.webp",
     description: "Pokédex App using PokeAPI + ReactJs 🌏",
     gradient: ["#F14658", "#DC2537"],
     url: "https://github.com/SupakunZ/Pokedex_App",
@@ -175,8 +183,8 @@ export const PROJECTS = [
   },
   {
     name: "Tesla",
-    image: "/projects/tesla.png",
-    blurImage: "/projects/tesla.png",
+    image: "/projects/tesla.webp",
+    blurImage: "/projects/tesla.webp",
     description: "Tesla UI clone using ReactJs + Bootstrap5 🚗",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://tesla-cloness.netlify.app/",
@@ -184,8 +192,8 @@ export const PROJECTS = [
   },
   {
     name: "Portfolio",
-    image: "/projects/portfolio_2.png",
-    blurImage: "/projects/portfolio_2.png",
+    image: "/projects/portfolio_2.webp",
+    blurImage: "/projects/portfolio_2.webp",
     description: "Portfolio using Tailwind CSS + NodeJS 🚀",
     gradient: ["#5800ca", "#b37afd"],
     url: "https://github.com/SupakunZ/Portfolio",
@@ -193,27 +201,27 @@ export const PROJECTS = [
   },
   {
     name: "E-commerce",
-    image: "/projects/ecommerce.png",
-    blurImage: "/projects/ecommerce.png",
+    image: "/projects/ecommerce.webp",
+    blurImage: "/projects/ecommerce.webp",
     description: "E-commerce using Tailwind CSS + NodeJS 🔥",
     gradient: ["#0fd850", "#f9f047"],
     url: "https://ecommercr.netlify.app/",
     tech: ["vitejs", "react", "tailwind", "nodejs", "mongoDB2"],
   },
   {
-    name: "Spacex",
-    image: "/projects/spacex_2.png",
-    blurImage: "/projects/spacex_2.png",
+    name: "Restaurant",
+    image: "/projects/restaurant.webp",
+    blurImage: "/projects/restaurant.webp",
     description:
-      "Spacex UI clone using ReactJs 👽",
+      "Restaurant using Redux + Supabase 👽",
     gradient: ["#000066", "#6699FF"],
-    url: "https://spacex-clones.netlify.app/",
-    tech: ["vitejs", "react"],
+    url: "https://restaurantz.netlify.app/",
+    tech: ["vitejs", "react", "tailwind", "redux", "supabase"],
   },
   {
     name: "Gnss-Rtk",
-    image: "/projects/gnss-rtk.png",
-    blurImage: "/projects/gnss-rtk.png",
+    image: "/projects/gnss-rtk.webp",
+    blurImage: "/projects/gnss-rtk.webp",
     description: "GNSS-RTK Navigation App using Python 🏆",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/SupakunZ/GNSS_RTK",
