@@ -25,7 +25,10 @@ const Contact = ({ isDesktop }) => {
         toast.update(id, { render: "Successfully sent to the server.", type: "success", isLoading: false, position: "top-center", autoClose: 2000, pauseOnHover: false });
         reset()
       })
-      .catch(err => toast.update(id, { render: "Faild sent to the server.", type: "error", isLoading: false, position: "top-center", autoClose: 2000, theme: "colored", pauseOnHover: false }))
+      .catch(err => {
+        toast.update(id, { render: "Faild sent to the server.", type: "error", isLoading: false, position: "top-center", autoClose: 2000, theme: "colored", pauseOnHover: false })
+        reset()
+      })
   }
 
   useEffect(() => {
