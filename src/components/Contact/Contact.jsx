@@ -2,14 +2,15 @@ import React, { useEffect, useRef } from 'react'
 import { MENULINKS, personalData } from '../../../constants'
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
-import { FaFacebook, FaInstagram, FaStackOverflow } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
-import { Link } from 'react-router-dom';
 import styles from "./Contact.module.scss";
 import axios from 'axios';
 import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = ({ isDesktop }) => {
   // const [contact, setContact] = useState([])
@@ -18,13 +19,13 @@ const Contact = ({ isDesktop }) => {
   const { register, handleSubmit, reset } = useForm()
 
   const onSubmit = async (data) => { // ** useForm ต้องรับ data  **
+    const id = toast.loading("Please wait...", { position: "top-center" })
     await axios.post(`${URL}/contact`, data)
       .then(res => {
-        console.log(res)
+        toast.update(id, { render: "Successfully sent to the server.", type: "success", isLoading: false, position: "top-center", autoClose: 2000, pauseOnHover: false });
         reset()
-        alert(res.data)
       })
-      .catch(err => console.log(err))
+      .catch(err => toast.update(id, { render: "Faild sent to the server.", type: "error", isLoading: false, position: "top-center", autoClose: 2000, theme: "colored", pauseOnHover: false }))
   }
 
   useEffect(() => {
