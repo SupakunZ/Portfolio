@@ -204,7 +204,7 @@ export const PROJECTS = [
     image: "/projects/ecommerce.webp",
     blurImage: "/projects/ecommerce.webp",
     description: "E-commerce using Tailwind CSS + NodeJS 🔥",
-    gradient: ["#0fd850", "#f9f047"],
+    gradient: ["#15be4a", "#f9f047"],
     url: "https://ecommercr.netlify.app/",
     tech: ["vitejs", "react", "tailwind", "nodejs", "mongoDB2"],
   },
