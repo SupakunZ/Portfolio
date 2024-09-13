@@ -71,7 +71,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/supakun-thata-437a62328/",
     img: <IconLinkedin />
   },
   {
@@ -238,7 +238,7 @@ export const personalData = {
   address: 'Chiang Rai, Thailand - 57160 ',
   github: 'https://github.com/SupakunZ',
   instagram: 'https://www.instagram.com/gunnkkun_/',
-  linkedIn: 'https://www.google.co.th/',
+  linkedIn: 'https://www.linkedin.com/in/supakun-thata-437a62328/',
   twitter: 'https://x.com/GuNz246448',
   devUsername: "NEOSPEX",
   resume: "https://drive.google.com/file/d/1W6ewtg6mlrHc5uVtp2IQF1BNbgqV1r-n/view?usp=sharing"
