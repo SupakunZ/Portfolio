@@ -17,7 +17,7 @@ const About = () => {
               <h1 className="text-4xl mt-2 font-medium text-gradient w-fit">
                 Who I am?
               </h1>
-              <h2 className="text-[1rem] font-medium md:max-w-lg w-full mt-2 pr-7 md:pr-0">
+              <h2 className="text-[1rem] text-justify font-medium md:max-w-[539px] w-[99.2vw] mt-2 pr-7 md:pr-0">
                 My name is Supakun Thata. I am Frontend Developer. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies, passionate about problem-solving and like almost all the stacks of web application development.
               </h2>
             </div>
