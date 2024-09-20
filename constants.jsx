@@ -14,6 +14,7 @@ import sass from './public/skills/sass.svg'
 import nodejs from './public/skills/nodejs.svg'
 import redux from './public/skills/redux.svg'
 import supabase from './public/skills/supabase.svg'
+import nextjs from './public/skills/nextJS.webp'
 
 
 
@@ -107,6 +108,10 @@ export const SKILLS = [
   {
     tools: "React",
     img: react
+  },
+  {
+    tools: "NextJS",
+    img: nextjs
   },
   {
     tools: "Redux",
