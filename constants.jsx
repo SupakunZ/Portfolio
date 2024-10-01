@@ -15,6 +15,7 @@ import nodejs from './public/skills/nodejs.svg'
 import redux from './public/skills/redux.svg'
 import supabase from './public/skills/supabase.svg'
 import nextjs from './public/skills/nextJS.webp'
+import typescript from './public/skills/typescript.svg'
 
 
 
@@ -106,6 +107,10 @@ export const SKILLS = [
     img: javascript
   },
   {
+    tools: "Typescript",
+    img: typescript
+  },
+  {
     tools: "React",
     img: react
   },
@@ -164,9 +169,9 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "Data Engineer",
-    company: "Road to Data Engineer Courses | DataTH",
-    duration: "(Dec 2023 - Fec 2024)"
+    title: "Mechanical Engineer",
+    company: "Site Engineer Air Conditioning | First Technology",
+    duration: "(Oct 2023 - Mar 2024)"
   },
   {
     id: 3,
@@ -209,7 +214,7 @@ export const PROJECTS = [
     image: "/projects/ecommerce.webp",
     blurImage: "/projects/ecommerce.webp",
     description: "E-commerce using Tailwind CSS + NodeJS 🔥",
-    gradient: ["#15be4a", "#f9f047"],
+    gradient: ["#45B649", "#DCE35B"],
     url: "https://ecommercr.netlify.app/",
     tech: ["vitejs", "react", "tailwind", "nodejs", "mongoDB2"],
   },
@@ -219,16 +224,26 @@ export const PROJECTS = [
     blurImage: "/projects/restaurant.webp",
     description:
       "Restaurant using Redux + Supabase 👽",
-    gradient: ["#000066", "#6699FF"],
+    gradient: ["#021B79", "#0575E6"],
     url: "https://restaurantz.netlify.app/",
     tech: ["vitejs", "react", "tailwind", "redux", "supabase"],
+  },
+  {
+    name: "Gunglz Chatbot",
+    image: "/projects/chatbot.webp",
+    blurImage: "/projects/chatbot.webp",
+    description:
+      "AI Chatbot using NextJs + Tailwind CSS 🤖",
+    gradient: ["#536976", "#BBD2C5"],
+    url: "https://gunglz-chatbot.vercel.app/",
+    tech: ["vitejs", "nextJS", "tailwind"],
   },
   {
     name: "Gnss-Rtk",
     image: "/projects/gnss-rtk.webp",
     blurImage: "/projects/gnss-rtk.webp",
     description: "GNSS-RTK Navigation App using Python 🏆",
-    gradient: ["#142D46", "#2E4964"],
+    gradient: ["#00416A", "#E4E5E6"],
     url: "https://github.com/SupakunZ/GNSS_RTK",
     tech: ["python", "numpy"],
   }
