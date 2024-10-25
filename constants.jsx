@@ -136,6 +136,10 @@ export const SKILLS = [
     img: bootstrap,
   },
   {
+    tools: "MaterialUI",
+    img: materialui,
+  },
+  {
     tools: "Git",
     img: git,
   },
@@ -166,10 +170,6 @@ export const SKILLS = [
   {
     tools: "ReactQuery",
     img: reactquery,
-  },
-  {
-    tools: "MaterialUI",
-    img: materialui,
   },
 ];
 
