@@ -1,24 +1,29 @@
-import { IconMail, IconLinkedin, IconInstagram, IconGithub } from "./src/components/Icons/index";
-import html from './public/skills/html.svg';
-import css from './public/skills/css.svg';
-import javascript from './public/skills/javascript.svg';
-import react from './public/skills/react.svg';
-import bootstrap from './public/skills/bootstrap5.svg';
-import git from './public/skills/git.svg';
-import tailwind from './public/skills/tailwind.svg';
+/* eslint-disable no-unused-vars */
+import {
+  IconMail,
+  IconLinkedin,
+  IconInstagram,
+  IconGithub,
+} from "./src/components/Icons/index";
+import html from "./public/skills/html.svg";
+import css from "./public/skills/css.svg";
+import javascript from "./public/skills/javascript.svg";
+import react from "./public/skills/react.svg";
+import bootstrap from "./public/skills/bootstrap5.svg";
+import git from "./public/skills/git.svg";
+import tailwind from "./public/skills/tailwind.svg";
 import { FaXTwitter } from "react-icons/fa6";
-import mongoDB from './public/skills/mongoDB.svg'
-import mysql from './public/skills/mysql.svg'
-import python from './public/skills/python.svg'
-import sass from './public/skills/sass.svg'
-import nodejs from './public/skills/nodejs.svg'
-import redux from './public/skills/redux.svg'
-import supabase from './public/skills/supabase.svg'
-import nextjs from './public/skills/nextJS.webp'
-import typescript from './public/skills/typescript.svg'
-
-
-
+import mongoDB from "./public/skills/mongoDB.svg";
+import mysql from "./public/skills/mysql.svg";
+import python from "./public/skills/python.svg";
+import sass from "./public/skills/sass.svg";
+import nodejs from "./public/skills/nodejs.svg";
+import redux from "./public/skills/redux.svg";
+import supabase from "./public/skills/supabase.svg";
+import nextjs from "./public/skills/nextJS.webp";
+import typescript from "./public/skills/typescript.svg";
+import reactquery from "./public/skills/react-query.svg";
+import materialui from "./public/skills/materialui.svg";
 
 export const METADATA = {
   author: "Supakun Thata",
@@ -69,94 +74,102 @@ export const SOCIAL_LINKS = [
   {
     name: "mail",
     url: "mailto: supakunt.thata@gmail.com",
-    img: <IconMail />
+    img: <IconMail />,
   },
   {
     name: "linkedin",
     url: "https://www.linkedin.com/in/supakun-thata-437a62328/",
-    img: <IconLinkedin />
+    img: <IconLinkedin />,
   },
   {
     name: "github",
     url: "https://github.com/SupakunZ",
-    img: <IconGithub />
+    img: <IconGithub />,
   },
   {
     name: "instagram",
     url: "https://www.instagram.com/gunnkkun_/",
-    img: <IconInstagram />
+    img: <IconInstagram />,
   },
   {
     name: "twitter",
     url: "https://x.com/GuNz246448",
-    img: <FaXTwitter style={{ width: "24px", height: "24px" }} />
+    img: <FaXTwitter style={{ width: "24px", height: "24px" }} />,
   },
 ];
 
 export const SKILLS = [
   {
     tools: "Html",
-    img: html
+    img: html,
   },
   {
     tools: "Css",
-    img: css
+    img: css,
   },
   {
     tools: "Javascript",
-    img: javascript
+    img: javascript,
   },
   {
     tools: "Typescript",
-    img: typescript
+    img: typescript,
   },
   {
     tools: "React",
-    img: react
+    img: react,
   },
   {
     tools: "NextJS",
-    img: nextjs
+    img: nextjs,
   },
   {
     tools: "Redux",
-    img: redux
+    img: redux,
   },
   {
     tools: "Tailwind",
-    img: tailwind
+    img: tailwind,
   },
   {
     tools: "Bootstrap",
-    img: bootstrap
+    img: bootstrap,
   },
   {
     tools: "Git",
-    img: git
+    img: git,
   },
   {
     tools: "Python",
-    img: python
+    img: python,
   },
   {
     tools: "Sass",
-    img: sass
+    img: sass,
   },
   {
     tools: "Nodejs",
-    img: nodejs
+    img: nodejs,
   },
   {
     tools: "MongoDB",
-    img: mongoDB
+    img: mongoDB,
   },
   {
     tools: "Mysql",
-    img: mysql
+    img: mysql,
   },
   {
     tools: "Supabase",
-    img: supabase
+    img: supabase,
+  },
+  {
+    tools: "ReactQuery",
+    img: reactquery,
+  },
+  {
+    tools: "MaterialUI",
+    img: materialui,
   },
 ];
 
@@ -165,21 +178,21 @@ export const experiences = [
     id: 1,
     title: "Frontend Developer",
     company: "FullStack Development Bootcamp | Westride",
-    duration: "(Mar 2024 - Present)"
+    duration: "(Mar 2024 - Present)",
   },
   {
     id: 2,
     title: "Mechanical Engineer",
     company: "Site Engineer Air Conditioning | First Technology",
-    duration: "(Oct 2023 - Mar 2024)"
+    duration: "(Oct 2023 - Mar 2024)",
   },
   {
     id: 3,
     title: "Gnss RTK Navigation",
     company: "Internship Python Developer | GISTDA",
-    duration: "(Apr 2022 - Dec 2022)"
-  }
-]
+    duration: "(Apr 2022 - Dec 2022)",
+  },
+];
 
 export const PROJECTS = [
   {
@@ -222,8 +235,7 @@ export const PROJECTS = [
     name: "Restaurant",
     image: "/projects/restaurant.webp",
     blurImage: "/projects/restaurant.webp",
-    description:
-      "Restaurant using Redux + Supabase 👽",
+    description: "Restaurant using Redux + Supabase 👽",
     gradient: ["#021B79", "#0575E6"],
     url: "https://restaurantz.netlify.app/",
     tech: ["vitejs", "react", "tailwind", "redux", "supabase"],
@@ -232,8 +244,7 @@ export const PROJECTS = [
     name: "Gunglz Chatbot",
     image: "/projects/chatbot.webp",
     blurImage: "/projects/chatbot.webp",
-    description:
-      "AI Chatbot using NextJs + Tailwind CSS 🤖",
+    description: "AI Chatbot using NextJs + Tailwind CSS 🤖",
     gradient: ["#536976", "#BBD2C5"],
     url: "https://gunglz-chatbot.vercel.app/",
     tech: ["vitejs", "nextJS", "tailwind"],
@@ -246,21 +257,39 @@ export const PROJECTS = [
     gradient: ["#00416A", "#E4E5E6"],
     url: "https://github.com/SupakunZ/GNSS_RTK",
     tech: ["python", "numpy"],
-  }
+  },
+  {
+    name: "Crypto Tracker",
+    image: "/projects/crypto_image.webp",
+    blurImage: "/projects/crypto_image.webp",
+    description: "Crypto Tracker App using NextJs + TS 💸💰",
+    gradient: ["#9140ac", "#ce4470"],
+    url: "https://github.com/SupakunZ/Crypto_tracker",
+    tech: ["typescript", "nextJS", "react-query", "tailwind"],
+  },
+  {
+    name: "Admin Dashboard",
+    image: "/projects/dashboard_image.webp",
+    blurImage: "/projects/dashboard_image.webp",
+    description: "Admin Dashboard using NextJs + MUI 🎃",
+    gradient: ["#667db6", "#0082c8"],
+    url: "https://github.com/SupakunZ/Admin_Dashboard",
+    tech: ["vitejs", "nextJS", "tailwind", "materialui", "nextauth"],
+  },
 ];
 
 export const personalData = {
   name: "Supakun Thata",
-  profile: '/profile.png',
+  profile: "/profile.png",
   designation: "Software Developer",
-  email: 'supakunt.thata@gmail.com',
-  phone: '0622787171',
-  address: 'Chiang Rai, Thailand - 57160 ',
-  github: 'https://github.com/SupakunZ',
-  instagram: 'https://www.instagram.com/gunnkkun_/',
-  linkedIn: 'https://www.linkedin.com/in/supakun-thata-437a62328/',
-  twitter: 'https://x.com/GuNz246448',
+  email: "supakunt.thata@gmail.com",
+  phone: "0622787171",
+  address: "Chiang Rai, Thailand - 57160 ",
+  github: "https://github.com/SupakunZ",
+  instagram: "https://www.instagram.com/gunnkkun_/",
+  linkedIn: "https://www.linkedin.com/in/supakun-thata-437a62328/",
+  twitter: "https://x.com/GuNz246448",
   devUsername: "NEOSPEX",
-  resume: "https://drive.google.com/file/d/1W6ewtg6mlrHc5uVtp2IQF1BNbgqV1r-n/view?usp=sharing"
-}
-
+  resume:
+    "https://drive.google.com/file/d/1W6ewtg6mlrHc5uVtp2IQF1BNbgqV1r-n/view?usp=sharing",
+};
