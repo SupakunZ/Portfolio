@@ -197,7 +197,7 @@ export const experiences = [
 export const PROJECTS = [
   {
     name: "Pokédex",
-    image: "/projects/pokedex.webp",
+    image: "/projects/pokedex02.webp",
     blurImage: "/projects/pokedex.webp",
     description: "Pokédex App using PokeAPI + ReactJs 🌏",
     gradient: ["#F14658", "#DC2537"],
