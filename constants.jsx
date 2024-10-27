@@ -177,8 +177,8 @@ export const experiences = [
   {
     id: 1,
     title: "Frontend Developer",
-    company: "FullStack Development Bootcamp | Westride",
-    duration: "(Mar 2024 - Present)",
+    company: "FullStack Developer Bootcamp | Westride",
+    duration: "(April 2024 - August 2024)",
   },
   {
     id: 2,
@@ -263,7 +263,7 @@ export const PROJECTS = [
     image: "/projects/crypto_image.webp",
     blurImage: "/projects/crypto_image.webp",
     description: "Crypto Tracker App using NextJs + TS 💸💰",
-    gradient: ["#9140ac", "#ce4470"],
+    gradient: ["#9140ac", "#ce44bc"],
     url: "https://github.com/SupakunZ/Crypto_tracker",
     tech: ["typescript", "nextJS", "react-query", "tailwind"],
   },
