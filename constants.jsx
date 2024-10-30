@@ -237,7 +237,7 @@ export const PROJECTS = [
     blurImage: "/projects/restaurant.webp",
     description: "Restaurant using Redux + Supabase 👽",
     gradient: ["#021B79", "#0575E6"],
-    url: "https://restaurantz.netlify.app/",
+    url: "https://restauranntz.vercel.app/",
     tech: ["vitejs", "react", "tailwind", "redux", "supabase"],
   },
   {
