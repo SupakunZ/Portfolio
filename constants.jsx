@@ -24,6 +24,7 @@ import nextjs from "./public/skills/nextJS.webp";
 import typescript from "./public/skills/typescript.svg";
 import reactquery from "./public/skills/react-query.svg";
 import materialui from "./public/skills/materialui.svg";
+import redis from "./public/skills/redis.svg";
 
 export const METADATA = {
   author: "Supakun Thata",
@@ -168,6 +169,10 @@ export const SKILLS = [
     img: supabase,
   },
   {
+    tools: "Redis",
+    img: redis,
+  },
+  {
     tools: "ReactQuery",
     img: reactquery,
   },
@@ -238,7 +243,7 @@ export const PROJECTS = [
     description: "Restaurant using Redux + Supabase 👽",
     gradient: ["#021B79", "#0575E6"],
     url: "https://restauranntz.vercel.app/",
-    tech: ["vitejs", "react", "tailwind", "redux", "supabase"],
+    tech: ["redux", "nextJS", "redis", "tailwind", "supabase"],
   },
   {
     name: "Gunglz Chatbot",
@@ -247,7 +252,7 @@ export const PROJECTS = [
     description: "AI Chatbot using NextJs + Tailwind CSS 🤖",
     gradient: ["#536976", "#BBD2C5"],
     url: "https://gunglz-chatbot.vercel.app/",
-    tech: ["vitejs", "nextJS", "tailwind"],
+    tech: ["nextJS", "tailwind"],
   },
   {
     name: "Gnss-Rtk",
@@ -273,8 +278,8 @@ export const PROJECTS = [
     blurImage: "/projects/dashboard_image.webp",
     description: "Admin Dashboard using NextJs + MUI 🎃",
     gradient: ["#667db6", "#0082c8"],
-    url: "https://github.com/SupakunZ/Admin_Dashboard",
-    tech: ["vitejs", "nextJS", "tailwind", "materialui", "nextauth"],
+    url: "https://adminz-dashboard.vercel.app/login",
+    tech: ["nextJS", "tailwind", "materialui", "nextauth"],
   },
 ];
 
