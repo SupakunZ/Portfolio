@@ -207,7 +207,7 @@ export const PROJECTS = [
     description: "Pokédex App using PokeAPI + ReactJs 🌏",
     gradient: ["#F14658", "#DC2537"],
     url: "https://github.com/SupakunZ/Pokedex_App",
-    tech: ["typescript", "vitejs", "react", "tailwind", "sass"],
+    tech: ["vitejs", "typescript", "react", "tailwind", "sass"],
   },
   {
     name: "Tesla",
