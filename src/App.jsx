@@ -4,7 +4,7 @@ import Menu from "./components/Header/Menu/Menu";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
-import Project from "./components/Project/Project";
+// import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
