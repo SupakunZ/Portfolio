@@ -45,9 +45,9 @@ const ProjectV2 = ({ isDesktop, clientHeight }) => {
         </div>
         <div
           className="flex flex-col justify-center h-full pt-[5.5rem]"
-          // data-aos="fade-down"
-          // data-aos-duration="1500"
-          // data-aos-once="true"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-once="true"
         >
           <div
             className="flex flex-col inner-container transform-gpu z-[11]"
@@ -67,9 +67,9 @@ const ProjectV2 = ({ isDesktop, clientHeight }) => {
           >
             <div
               className="flex items-center justify-center flex-col w-[100vw] gap-[5rem] h-full" //carousel-container
-              // data-aos="zoom-in"
-              // data-aos-duration="1500"
-              // data-aos-once="true"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-once="true"
             >
               <Filter
                 projectData={projectData}

@@ -2,7 +2,7 @@
 /* theme-mode-style */
 .mode + .container-filter {
   --color-pure: #fff;
-  --color-primary: #18141c;
+  --color-primary: #101123;
   --color-secondary: linear-gradient(to right, #9f55ff, #7000ff);
   --muted: linear-gradient(to right, #9f55ff, #7000ff);
 }

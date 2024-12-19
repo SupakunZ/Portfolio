@@ -1,6 +1,3 @@
-import { CgGitFork } from "react-icons/cg";
-import { IoStar } from "react-icons/io5";
-
 function Footer() {
   return (
     <div className="relative border-t bg-[#0b1020] border-[#353951] text-white">
@@ -10,22 +7,19 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © Developer Portfolio by <a target="_blank" href="https://github.com/SupakunZ" className="text-[#7000ff]">Supakun Thata</a>
-          </p>
-          <div className="flex items-center gap-2">
-            {/* <a
+            © Developer Portfolio by{" "}
+            <a
               target="_blank"
-              href="https://github.com/SupakunZ/Portfolio"
-              className="flex items-center gap-2 [&>:nth-child(1)]:hover:text-[#fde047] text-sm"
+              href="https://github.com/SupakunZ"
+              className="text-[#7000ff]"
             >
-              <IoStar />
-              <span>Star</span>
-            </a> */}
-          </div>
+              Supakun Thata
+            </a>
+          </p>
         </div>
       </div>
-    </div >
+    </div>
   );
-};
+}
 
 export default Footer;

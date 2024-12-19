@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 import { useEffect, useRef } from "react";
 import VanillaTilt from "vanilla-tilt";
 import styles from "./ProjectTile.module.scss";
 
 const Card = ({ project, classes, isDesktop }) => {
-
   const { name, image, blurImage, description, gradient, url, tech } = project;
   const projectCard = useRef(null);
   let additionalClasses = "";
@@ -23,7 +22,6 @@ const Card = ({ project, classes, isDesktop }) => {
   useEffect(() => {
     VanillaTilt.init(projectCard.current, options);
   }, [projectCard]);
-
 
   return (
     <>
@@ -45,10 +43,11 @@ const Card = ({ project, classes, isDesktop }) => {
             background: `linear-gradient(90deg, ${gradient[0]} 0%, ${gradient[1]} 100%)`,
           }}
         >
+          {/*---- Blobble Effect ---- */}
           <img
             src="/project-bg.svg"
             alt="project"
-            className="absolute w-full h-full top-0 left-0 object-cover opacity-100"
+            className="absolute w-full h-full top-0 left-0 object-cover opacity-100 will-change-transform"
           />
           <img
             src={image}
@@ -76,11 +75,15 @@ const Card = ({ project, classes, isDesktop }) => {
           >
             {name}
           </h1>
-          <div className={`${styles.techIcons} w-1/2 h-full absolute left-24 top-0 items-center sm:flex hidden `}>
+          <div
+            className={`${styles.techIcons} w-1/2 h-full absolute left-24 top-0 items-center sm:flex hidden `}
+          >
             <div className="flex flex-col pb-8">
               {project.tech.map((el, i) => (
                 <img
-                  className={`${i % 2 === 0 && "ml-14"} mb-4 relative left-[-4.5rem]`}
+                  className={`${
+                    i % 2 === 0 && "ml-14"
+                  } mb-4 relative left-[-4.5rem]`}
                   src={`/skills/${el}.svg`}
                   alt={el}
                   height={38}
@@ -99,7 +102,7 @@ const Card = ({ project, classes, isDesktop }) => {
         </div>
       </a>
     </>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

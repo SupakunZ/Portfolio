@@ -202,3 +202,16 @@
     }
   }
 }
+
+input:-webkit-autofill {
+  background-color: transparent !important; /* หรือสีพื้นหลังที่คุณต้องการ */
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important; /* เปลี่ยน #111 เป็นสีที่คุณใช้ */
+  -webkit-text-fill-color: #fff !important; /* เปลี่ยนสีข้อความ */
+  transition: background-color 5000s ease-in-out 0s; /* ป้องกันการเปลี่ยนแปลงฉับพลัน */
+}
+
+input:-webkit-autofill:focus {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  -webkit-text-fill-color: #fff !important;
+}
