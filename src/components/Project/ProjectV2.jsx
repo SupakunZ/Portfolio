@@ -65,12 +65,7 @@ const ProjectV2 = ({ isDesktop, clientHeight }) => {
               clientHeight > 650 ? "mt-12" : "mt-8"
             } flex project-wrapper no-scrollbar overflow-hidden`}
           >
-            <div
-              className="flex items-center justify-center flex-col w-[100vw] gap-[5rem] h-full" //carousel-container
-              data-aos="zoom-in"
-              data-aos-duration="1500"
-              data-aos-once="true"
-            >
+            <div className="flex items-center justify-center flex-col w-[100vw] gap-[5rem] h-full">
               <Filter
                 projectData={projectData}
                 setFiltered={setFiltered}
