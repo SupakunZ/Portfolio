@@ -244,7 +244,7 @@ export const PROJECTS = [
     name: "Tesla",
     image: "/projects/tesla.webp",
     blurImage: "/projects/tesla.webp",
-    description: "Tesla UI clone using ReactJs + Bootstrap 🚗",
+    description: "Tesla Clone using ReactJs + Bootstrap 🚗",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "https://tesla-cloness.netlify.app/",
     tech: ["vitejs", "react", "bootstrap5"],
