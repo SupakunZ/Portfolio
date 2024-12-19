@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 import { useRef } from "react";
-import { MENULINKS, PROJECTS } from '../../../constants'
-import Card from './Card';
+import { MENULINKS, PROJECTS } from "../../../constants";
+import Card from "./Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
-import 'swiper/css/navigation';
+import "swiper/css/navigation";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
-
 
 const Project = ({ isDesktop, clientHeight }) => {
   const sectionRef = useRef(null);
@@ -19,11 +18,16 @@ const Project = ({ isDesktop, clientHeight }) => {
       <section
         ref={sectionRef}
         id={MENULINKS[3].ref}
-        className={`${isDesktop && "min-h-screen"
-          } w-full relative select-none section-container my-12 lg:my-24 transform-gpu`}
+        className={`${
+          isDesktop && "min-h-screen"
+        } w-full relative select-none section-container my-12 lg:my-24 transform-gpu`}
       >
-        <div className='w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all' />
-        <img src="/hero.svg" alt="Hero" className="absolute top-[0] h-[100%] object-cover" />
+        <div className="w-full absolute top-0 py-20 z-10 bg-gradient-to-b from-black shadow-black transition-all" />
+        <img
+          src="/hero.svg"
+          alt="Hero"
+          className="absolute top-0 h-[100%] object-cover"
+        />
         <div className="relative z-[11]">
           <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl  opacity-30"></div>
           <div className="flex items-center justify-start relative">
@@ -33,7 +37,12 @@ const Project = ({ isDesktop, clientHeight }) => {
             <span className="w-full h-[1.7px] bg-[#1a1443]"></span>
           </div>
         </div>
-        <div className="flex flex-col justify-center h-full pt-[5.5rem]" data-aos="fade-down" data-aos-duration="1500" data-aos-once="true">
+        <div
+          className="flex flex-col justify-center h-full pt-[5.5rem]"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-once="true"
+        >
           <div
             className="flex flex-col inner-container transform-gpu z-[11]"
             ref={sectionTitleRef}
@@ -46,10 +55,16 @@ const Project = ({ isDesktop, clientHeight }) => {
             </p>
           </div>
           <div
-            className={`${clientHeight > 650 ? "mt-12" : "mt-8"
-              } flex project-wrapper no-scrollbar overflow-hidden`}
+            className={`${
+              clientHeight > 650 ? "mt-12" : "mt-8"
+            } flex project-wrapper no-scrollbar overflow-hidden`}
           >
-            <div className="flex items-center justify-center flex-col carousel-container w-[100vw]" data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true">
+            <div
+              className="flex items-center justify-center flex-col carousel-container w-[100vw]"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+              data-aos-once="true"
+            >
               <Swiper
                 breakpoints={{
                   360: {
@@ -82,7 +97,15 @@ const Project = ({ isDesktop, clientHeight }) => {
               >
                 {PROJECTS.map((project, index) => (
                   <SwiperSlide key={index}>
-                    <Card classes={index === PROJECTS.length - 1 ? "" : "mr-10 xs:mr-12 sm:mr-16"} project={project} key={project.name} />
+                    <Card
+                      classes={
+                        index === PROJECTS.length - 1
+                          ? ""
+                          : "mr-10 xs:mr-12 sm:mr-16"
+                      }
+                      project={project}
+                      key={project.name}
+                    />
                   </SwiperSlide>
                 ))}
               </Swiper>
@@ -91,9 +114,7 @@ const Project = ({ isDesktop, clientHeight }) => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Project
-
-
+export default Project;

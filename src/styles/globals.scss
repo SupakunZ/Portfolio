@@ -285,3 +285,8 @@ body {
   background: radial-gradient(circle at 30% 110%, #ffdb8b 0%,
       #ee653d 25%, #d42e81 50%, #a237b6 75%, #3e5fbc 100%);
 }
+
+.btn-project {
+  background: linear-gradient(to right, #9f55ff, #7000ff);
+  // font-family: theme("fontFamily.mono");
+}
