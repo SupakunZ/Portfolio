@@ -34,8 +34,8 @@ function App() {
             <Hero />
             <About />
             <Experience />
-            {/* <Project /> */}
-            <ProjectV2 />
+            {/* <Project /> */} {/* Old Layout of MyProject */}
+            <ProjectV2 /> {/* Update NewLayout of MyProject */}
             <Contact />
           </main>
           <Footer />
