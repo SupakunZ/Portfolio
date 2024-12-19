@@ -105,7 +105,27 @@
 
 @media (max-width: 450px) {
   .wrap {
-    --w-label: 95px;
+    --w-label: 90px;
+  }
+  .label {
+    font-size: 0.9rem !important;
+    padding: 12px 0px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrap {
+    --w-label: 75px;
+  }
+}
+
+@media (max-width: 340px) {
+  .wrap {
+    --w-label: 70px;
+  }
+  .label {
+    font-size: 0.8rem !important;
+    padding: 10px 0px !important;
   }
 }
 
